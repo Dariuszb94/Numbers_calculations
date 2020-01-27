@@ -1,0 +1,5 @@
+#container{
+	displat:grid;
+	grid-column: 1fr;
+	grid-row:repeat(auto-fill, 1fr);
+}
