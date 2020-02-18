@@ -10,14 +10,13 @@
 
   </head>
   <body>
-<div>Find PI to the Nth Digit - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
-</div>
-<div class="pi"></div>
+<div>Enter a number and have the program generate the Fibonacci sequence to that number.</div>
+<div class="e"></div>
 
 
-<input type="text" id="piInput" placeholder="Enter a number"> <br />
-<button type="button" id="buttonPi">Calculate</button> <br />
-<span>Result: </span><span id="pii"></span>
+<input type="text" id="fiboInput" placeholder="Enter a number"> <br />
+<button type="button" id="buttonFibo" onclick="fibo(5)" >Calculate</button> <br />
+<span>Result: </span><input id="fibo" value=""></input>
 <a href="index.html"><button>Back</button></a>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script> <!–– Include jQuery library ––> 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script> <!–– Include jQuery library ––> 
